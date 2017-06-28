@@ -6,9 +6,6 @@ module.exports = function (wallaby) {
     ],
     tests: [
       'browser/tests.js'
-    ],
-    env: {
-      type: 'node'
-    }
+    ]
   };
 };
