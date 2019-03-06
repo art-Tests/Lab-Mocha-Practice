@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browser": "start browser/index.html",
+    "coverage": "start report/converage/index.html",
+    "all": "start report/all.html",
+    "test": "gulp karma"
   },
   "keywords": [
     "testing",
@@ -13,18 +16,19 @@
   "author": "Ruan Yifeng",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "~6.2.1",
-    "babel-preset-es2015": "~6.1.18",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^4.0.2",
     "gulp": "^3.9.1",
     "gulp-karma": "0.0.5",
     "gulp-mocha": "^4.3.1",
     "karma": "^1.7.0",
     "karma-chrome-launcher": "^2.2.0",
-    "karma-coverage": "^1.1.1",
+    "karma-coverage": "^1.1.2",
     "karma-mocha": "^1.3.0",
     "mocha": "^3.4.2",
-    "mochawesome": "^2.2.1"
+    "mochawesome": "^2.2.1",
+    "nightmare": "^3.0.1"
   },
   "dependencies": {
     "node-fetch": "~1.3.3",

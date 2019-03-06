@@ -1,11 +1,6 @@
-module.exports = function (wallaby) {
+module.exports = function(wallaby) {
   return {
-    files: [
-      'browser/Calculator.js',
-      'node_modules/chai/chai.js'
-    ],
-    tests: [
-      'browser/tests.js'
-    ]
+    files: ["browser/Calculator.js", "node_modules/chai/chai.js"],
+    tests: ["browser/tests.js"]
   };
 };
